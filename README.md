@@ -1,6 +1,6 @@
 # Paige Godfrey | Portfolio
 
-## Technologies:
+Technologies:
 - React
 - JSX, HTML
 - CSS/Bootstrap
