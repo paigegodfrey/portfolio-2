@@ -1,5 +1,5 @@
 # Paige Godfrey | Portfolio
-Personal site showcasing: projects, resume, about me, and contact information
+Personal website showcasing: projects, resume, about me, and contact information
 
 ## Technologies:
 - React
