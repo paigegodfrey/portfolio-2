@@ -8,8 +8,7 @@ const Navigation = () => {
   return (
     <div>
       <Navbar expand="sm" variant="light" id="nav-style">
-      <Navbar.Brand href="/" id="nav-brand">PAIGE</Navbar.Brand>
-        <Navbar.Toggle aria-controls="navigation"/>
+        <Navbar.Toggle aria-controls="navigation" />
         <Navbar.Collapse id="navigation" className="justify-content-end">
           <Nav>
             <Nav.Item>
