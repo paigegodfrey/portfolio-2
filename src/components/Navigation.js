@@ -10,8 +10,8 @@ const Navigation = () => {
       <Navbar expand="sm" variant="light" id="nav-style">
         <Navbar.Brand href="/" id="nav-brand">Paige Godfrey</Navbar.Brand>
         <Navbar.Toggle aria-controls="navigation" />
-        <Navbar.Collapse style={{fontSize:"18px"}} className="justify-content-end">
-          <Nav>
+        <Navbar.Collapse className="justify-content-end">
+          <Nav id="navigation">
             <Nav.Item>
               <NavLink className="pr-3" exact to="/">Projects</NavLink>
             </Nav.Item>
