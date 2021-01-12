@@ -7,10 +7,10 @@ import './Navigation.css'
 const Navigation = () => {
   return (
     <div>
-      <Navbar expand="sm" variant="light" id="nav-style">
-        <Navbar.Brand href="/" id="nav-brand">Paige Godfrey</Navbar.Brand>
+      <Navbar expand="sm" variant="dark" id="nav-style">
+        <Navbar.Brand href="/" id="nav-brand">PG</Navbar.Brand>
         <Navbar.Toggle aria-controls="navigation" />
-        <Navbar.Collapse className="justify-content-end">
+        <Navbar.Collapse className="collapse justify-content-end">
           <Nav id="navigation">
             <Nav.Item>
               <NavLink className="pr-3" exact to="/">Projects</NavLink>
