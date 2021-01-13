@@ -12,14 +12,17 @@ const Navigation = () => {
         <Navbar.Toggle aria-controls="navigation" />
         <Navbar.Collapse className="collapse justify-content-end">
           <Nav id="navigation">
-            <Nav.Item>
-              <NavLink className="pr-3" exact to="/">Projects</NavLink>
+          <Nav.Item>
+              <NavLink className="home pr-3" exact to="/">Home</NavLink>
             </Nav.Item>
             <Nav.Item>
-              <NavLink className="pr-3" to="/about">About</NavLink>
+              <NavLink className="projects pr-3" exact to="/projects">Projects</NavLink>
             </Nav.Item>
             <Nav.Item>
-              <NavLink to="/contact">Contact</NavLink>
+              <NavLink className="about pr-3" exact to="/about">About</NavLink>
+            </Nav.Item>
+            <Nav.Item>
+              <NavLink className="contact" exact to="/contact">Contact</NavLink>
             </Nav.Item>
           </Nav>
         </Navbar.Collapse>

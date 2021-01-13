@@ -1,7 +1,7 @@
 #nav-style {
   position: fixed;
   top: 0;
-  width: 100%;
+  width: 100%;  
   background-color: #202020;
 }
 
@@ -17,6 +17,12 @@
   padding: 0;
 }
 
+/* .contact {
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 3px;
+} */
+
 nav a {
   color: white;
   transition: all 200ms;
@@ -26,8 +32,8 @@ nav a:hover {
   color: tomato;
   text-decoration: none;
 }
+
 nav a.active {
   font-weight: bold;
   color: tomato;
-
 }
