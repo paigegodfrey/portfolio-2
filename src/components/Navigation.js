@@ -9,8 +9,8 @@ const Navigation = () => {
     <div>
       <Navbar expand="sm" variant="dark" id="nav-style">
         <Navbar.Brand href="/" id="nav-brand">PG</Navbar.Brand>
-        <Navbar.Toggle aria-controls="navigation" />
-        <Navbar.Collapse className="collapse justify-content-end">
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse className="justify-content-end">
           <Nav id="navigation">
           <Nav.Item>
               <NavLink className="home pr-3" exact to="/">Home</NavLink>
