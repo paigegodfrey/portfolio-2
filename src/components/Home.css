@@ -8,16 +8,12 @@
 
 .bg {
   background-color: #202020;
-}
-
-.intro-container {
   height: 100vh;
-  display: flex;
-  flex-direction: column;
-  padding-top: 180px;
 }
 
-.header, .sub-header {
+/* border to learn flexbox*/
+.intro-container {
+  border: 2px solid white;
   color: white;
 }
 
