@@ -8,7 +8,7 @@ import "./Home.css";
 const Home = () => {
   return (
     <div className='bg'>
-      <Container fluid='lg' className="intro-container">
+      {/* <Container fluid='lg' className="intro-container">
         <Row>
           <Col className="flex-item1">
             <div className="header">PAIGE GODFREY</div>
@@ -20,7 +20,7 @@ const Home = () => {
             <img src={rainbowIMG} alt="geometric art" />
           </Col>
         </Row>
-      </Container>
+      </Container> */}
     </div>
   );
 }
