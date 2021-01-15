@@ -6,13 +6,18 @@
   background-size: cover;
 } */
 
-.bg {
-  background-color: #202020;
+.bg, .intro-container {
   height: 100vh;
 }
 
-/* border to learn flexbox*/
+.bg {
+  background-color: #202020;
+}
+
+/* border to learn flexbox */
 .intro-container {
+  display: flex;
+  align-items: center;
   border: 2px solid white;
   color: white;
 }

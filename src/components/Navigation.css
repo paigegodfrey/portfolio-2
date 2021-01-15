@@ -5,11 +5,6 @@
   background-color: #202020;
 }
 
-#basic-navbar-nav {
-  font-size: 18px;
-  font-weight: 450;
-}
-
 #nav-brand {
   font-family: 'Bebas Neue', cursive;
   color: white;
@@ -17,10 +12,15 @@
   padding: 0;
 }
 
+#basic-navbar-nav {
+  font-size: 18px;
+  font-weight: 450;
+}
+
 /* .contact {
   border: 2px solid white;
   border-radius: 5px;
-  padding: 3px;
+  padding: 4px;
 } */
 
 nav a {

@@ -8,19 +8,19 @@ import "./Home.css";
 const Home = () => {
   return (
     <div className='bg'>
-      {/* <Container fluid='lg' className="intro-container">
+      <Container fluid='lg' className="intro-container">
         <Row>
-          <Col className="flex-item1">
-            <div className="header">PAIGE GODFREY</div>
-            <div className="sub-header">
-              Not your average software engineer
-          </div>
-          </Col>
-          <Col className="flex-item2">
+            <Col className="flex-item1">
+              <div className="header">PAIGE GODFREY</div> 
+              <div className="sub-header">
+                Not your average software engineer
+              </div>
+            </Col>
+          {/* <Col className="flex-item2">
             <img src={rainbowIMG} alt="geometric art" />
-          </Col>
+          </Col> */}
         </Row>
-      </Container> */}
+      </Container>
     </div>
   );
 }
