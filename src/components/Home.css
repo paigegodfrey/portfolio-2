@@ -4,6 +4,10 @@
   color: white;
 }
 
+#hero .container {
+  padding-left: 16px;
+}
+
 #hero h1 {
   margin: 0 0 10px 0;
   font-size: 64px;
@@ -35,15 +39,20 @@
   border-color: tomato;
 } */
 
+.title-img {
+  height: 250px;
+}
+
 @media (max-width: 768px) {
-  #hero .container {
-    padding-left: 16px;
-  }
   #hero h1 {
     font-size: 56px;
     line-height: 64px;
   }
   #hero h2 {
     font-size: 24px;
+  }
+
+  .title-img {
+    height: 200px;
   }
 }

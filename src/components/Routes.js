@@ -13,12 +13,12 @@ function Routes() {
           <Home />
         </Route>
         
-        <Route exact path="/projects">
-          <Projects />
-        </Route>
-
         <Route exact path="/about">
           <About />
+        </Route>
+        
+        <Route exact path="/projects">
+          <Projects />
         </Route>
 
         <Route exact path="/contact">
