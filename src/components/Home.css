@@ -4,10 +4,6 @@
   color: white;
 }
 
-#hero .container {
-  padding-left: 16px;
-}
-
 #hero h1 {
   margin: 0 0 10px 0;
   font-size: 64px;
@@ -50,8 +46,8 @@
 }
 
 @media (max-width: 768px) {
-  .title-text {
-    top: -75px;
+  #hero .hero-container {
+    padding-left: 16px;
   }
   #hero h1 {
     font-size: 56px;
