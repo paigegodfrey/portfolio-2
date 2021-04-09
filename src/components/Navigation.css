@@ -1,4 +1,4 @@
-#nav-style {
+.Navigation{
   position: fixed;
   top: 0;
   width: 100%;  
@@ -16,12 +16,6 @@
   font-size: 18px;
   font-weight: 450;
 }
-
-/* .contact {
-  border: 2px solid white;
-  border-radius: 5px;
-  padding: 4px;
-} */
 
 nav a {
   color: white;
