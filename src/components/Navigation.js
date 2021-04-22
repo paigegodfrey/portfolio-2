@@ -13,9 +13,6 @@ const Navigation = () => {
         <Navbar.Collapse id="basic-navbar-nav" className="text-right justify-content-end">
           <Nav>
             <Nav.Item>
-              <NavLink className="home p-2" exact to="/">Home</NavLink>
-            </Nav.Item>
-            <Nav.Item>
               <NavLink className="projects p-2" exact to="/projects">Projects</NavLink>
             </Nav.Item>
             <Nav.Item>
