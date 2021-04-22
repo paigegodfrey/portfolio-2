@@ -8,7 +8,7 @@ import "./Home.css";
 
 const Home = () => {
   return (
-    <div id="hero" className="d-flex align-items-center justify-content-start">
+    <div id="hero" className="Home d-flex align-items-center">
       <Container className="hero-container">
         <Row>
           <Col className="title-text-col">
@@ -20,12 +20,12 @@ const Home = () => {
               </Link>
             </div>
           </Col>
-          <Col className="title-img-col">
-            <img className="title-img" src={titleIMG} alt="geometric pic" />
-          </Col>
+          {/* <Col className="title-img-col">
+            <img className="title-img img-fluid" src={titleIMG} alt="geometric pic" />
+          </Col> */}
         </Row>
       </Container>
-    </div >
+    </div>
   );
 }
 
