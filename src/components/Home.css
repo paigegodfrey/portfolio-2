@@ -71,3 +71,9 @@
   }
 }
 
+@media (max-width: 576px) {
+  .title-text-col {
+    margin-top: 50px;
+  }
+}
+
