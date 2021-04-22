@@ -3,18 +3,23 @@
   background-color: #202020;
 }
 
+#hero .hero-container {
+  padding-top: 45px;
+  padding-left: 16px;
+}
+
 #hero h1 {
   text-transform: uppercase;
   margin: 0 0 10px 0;
-  font-size: 64px;
+  font-size: 56px;
   font-weight: 700;
-  line-height: 72px;
+  line-height: 64px;
   color: white;
 }
 
 #hero h2 {
   margin-bottom: 30px;
-  font-size: 30px;
+  font-size: 24px;
   color: white;
 }
 
@@ -33,21 +38,4 @@
 #hero .btn-projects:hover {
   background: tomato;
   border-color: tomato;
-}
-
-@media (max-width: 991px) {
-  #hero .hero-container {
-    padding-top: 45px;
-    padding-left: 16px;
-  }
-  #hero h1 {
-    font-size: 56px;
-    line-height: 64px;
-  }
-  #hero h2 {
-    font-size: 24px;
-  }
-  .title-img-col {
-    display: none;
-  }
 }
