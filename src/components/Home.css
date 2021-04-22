@@ -1,6 +1,7 @@
 #hero {
   height: 100vh;
   background-color: #202020;
+  /* background-image: ; */
 }
 
 #hero .hero-container {
@@ -38,4 +39,15 @@
 #hero .btn-projects:hover {
   background: tomato;
   border-color: tomato;
+}
+
+.title-img {
+  height: 190px;
+}
+
+@media (max-width: 991px) {
+  .title-img-col {
+    margin-top: 50px;
+    text-align: end;
+  }
 }

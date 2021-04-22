@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Link } from 'react-router-dom';
+import titleIMG from '../images/titleIMG.png';
 import "./Home.css";
 
 const Home = () => {
@@ -18,6 +19,9 @@ const Home = () => {
                 View my work
               </Link>
             </div>
+          </Col>
+          <Col lg={6} className="title-img-col">
+            <img className="title-img" src={titleIMG} alt="geometric pic" />
           </Col>
         </Row>
       </Container>
