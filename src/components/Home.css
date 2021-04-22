@@ -36,10 +36,6 @@
   border-color: tomato;
 }
 
-/* .title-img {
-  max-height: 220px;
-} */
-
 @media (max-width: 991px) {
   #hero .hero-container {
     padding-top: 45px;

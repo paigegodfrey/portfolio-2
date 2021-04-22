@@ -20,9 +20,6 @@ const Home = () => {
               </Link>
             </div>
           </Col>
-          {/* <Col className="title-img-col">
-            <img className="title-img img-fluid" src={titleIMG} alt="geometric pic" />
-          </Col> */}
         </Row>
       </Container>
     </div>
