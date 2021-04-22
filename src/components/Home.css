@@ -12,15 +12,15 @@
 #hero h1 {
   text-transform: uppercase;
   margin: 0 0 10px 0;
-  font-size: 56px;
+  font-size: 70px;
   font-weight: 700;
-  line-height: 64px;
+  line-height: 72px;
   color: white;
 }
 
 #hero h2 {
   margin-bottom: 30px;
-  font-size: 24px;
+  font-size: 30px;
   color: white;
 }
 
@@ -42,12 +42,32 @@
 }
 
 .title-img {
-  height: 190px;
+  height: 220px;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 768px) {
+  #hero .hero-container {
+    padding-left: 16px;
+  }
+}
+
+@media (max-width: 1200px) {
   .title-img-col {
     margin-top: 50px;
     text-align: end;
   }
 }
+
+@media (max-width: 991px) {
+  #hero h1 {
+    font-size: 56px;
+    line-height: 64px;
+  }
+  #hero h2 {
+    font-size: 24px;
+  }
+  .title-img {
+    height: 170px;
+  }
+}
+

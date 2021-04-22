@@ -20,7 +20,7 @@ const Home = () => {
               </Link>
             </div>
           </Col>
-          <Col lg={6} className="title-img-col">
+          <Col xl={6} className="title-img-col">
             <img className="title-img" src={titleIMG} alt="geometric pic" />
           </Col>
         </Row>
