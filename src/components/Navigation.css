@@ -15,7 +15,7 @@
 
 #basic-navbar-nav {
   font-size: 18px;
-  font-weight: 450;
+  font-weight: 500;
 }
 
 nav a {
@@ -24,11 +24,9 @@ nav a {
 }
 
 nav a:hover {
-  color: tomato;
   text-decoration: none;
 }
 
 nav a.active {
   font-weight: bold;
-  color: tomato;
 }
