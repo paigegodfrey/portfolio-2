@@ -11,7 +11,7 @@ const Home = () => {
     <div id="hero" className="Home d-flex align-items-center">
       <Container className="hero-container">
         <Row>
-          <Col className="title-text-col">
+          <Col lg={7} className="title-text-col">
             <h1>Paige Godfrey</h1>
             <h2>Not your average software engineer</h2>
             <div>
@@ -20,7 +20,7 @@ const Home = () => {
               </Link>
             </div>
           </Col>
-          <Col xl={6} className="title-img-col">
+          <Col lg={5} className="title-img-col">
             <img className="title-img" src={titleIMG} alt="geometric pic" />
           </Col>
         </Row>
