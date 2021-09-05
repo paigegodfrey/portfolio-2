@@ -4,7 +4,6 @@
 }
 
 #hero .hero-container {
-  /* padding-top: 45px; */
   padding-left: 16px;
 }
 
@@ -50,6 +49,12 @@
 }
 
 @media (max-width: 480px) {
+  #hero h1 {
+    font-size: 56px;
+  }
+  #hero h2 {
+    font-size: 22px;
+  }
   .title-img {
     display: none;
   }

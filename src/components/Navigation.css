@@ -22,6 +22,10 @@ nav a {
   transition: all 200ms;
 }
 
+nav a {
+  font-weight: 500;
+}
+
 nav a:hover {
   color: tomato;
   text-decoration: none;
@@ -29,4 +33,5 @@ nav a:hover {
 
 nav a.active {
   color: tomato;
+  font-weight: 600;
 }
