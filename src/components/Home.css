@@ -70,16 +70,13 @@
     height: 145px;
   }
 
-  /* @media (max-width: 480px) {
+  @media (max-width: 480px) {
     #hero h1 {
-      font-size: 40px;
-    }
-    #hero h2 {
-      font-size: 18px;
+      font-size: 46px;
     }
     .title-img {
       height: 130px;
     }
-  } */
+  }
 }
 
