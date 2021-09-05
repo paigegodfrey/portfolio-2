@@ -1,9 +1,7 @@
 #nav-style {
-  /* position: fixed; */
   top: 0;
   width: 100%;  
   background-color: #202020;
-  /* z-index: 1; */
 }
 
 #nav-brand {
@@ -30,6 +28,5 @@ nav a:hover {
 }
 
 nav a.active {
-  /* font-weight: 600; */
   color: tomato;
 }
