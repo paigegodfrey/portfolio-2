@@ -10,7 +10,7 @@
 #hero h1 {
   margin: 0 0 10px 0;
   font-size: 72px;
-  font-family: 'Kanit', sans-serif;
+  font-family: 'Bebas Neue', cursive;
   font-weight: 800;
   line-height: 72px;
   color: white;
@@ -51,8 +51,8 @@
 
 @media (max-width: 480px) {
   #hero h1 {
-    font-size: 64px;
-    line-height: 64px;
+    font-size: 60px;
+    line-height: 60px;
   }
   #hero h2 {
     font-size: 26px;
