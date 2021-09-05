@@ -9,9 +9,9 @@
 
 #hero h1 {
   margin: 0 0 10px 0;
-  font-size: 70px;
+  font-size: 72px;
   font-family: 'Kanit', sans-serif;
-  font-weight: 700;
+  font-weight: 800;
   line-height: 72px;
   color: white;
 }
@@ -50,11 +50,15 @@
 }
 
 @media (max-width: 480px) {
-  /* #hero h1 {
-    font-size: 60px;
-  } */
+  #hero h1 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+  #hero h2 {
+    font-size: 26px;
+  }
   .title-img {
-    display: none;
+    height: 115px;
   }
 }
 
