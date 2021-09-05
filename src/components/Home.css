@@ -1,5 +1,5 @@
 #hero {
-  height: 100vh;
+  height: calc(100vh - 70px);
   background-color: #202020;
 }
 
@@ -19,7 +19,7 @@
 #hero h2 {
   margin-bottom: 24px;
   font-size: 30px;
-  color: white;
+  color: tomato;
 }
 
 #hero .btn-projects {
