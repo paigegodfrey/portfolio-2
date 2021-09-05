@@ -49,11 +49,11 @@
 }
 
 @media (max-width: 480px) {
-  #hero h1 {
-    font-size: 56px;
+  #hero {
+    height: calc(100vh - 100px);
   }
-  #hero h2 {
-    font-size: 22px;
+  #hero h1 {
+    font-size: 60px;
   }
   .title-img {
     display: none;
