@@ -1,0 +1,6 @@
+.ProjectCard:hover {
+  cursor: pointer;
+  transform: translate3d(0px, -2px, 0px);
+  transition-duration: 0.5s;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}

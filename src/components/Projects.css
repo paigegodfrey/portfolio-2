@@ -1,0 +1,6 @@
+.projects-list {
+  padding-inline: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(226px, 1fr));
+  grid-gap: 20px;
+}
