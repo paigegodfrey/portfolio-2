@@ -1,7 +1,7 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
-import ProjectCard from './ProjectCard';
-import jobly from '../images/jobly.jpg';
+// import ProjectCard from './ProjectCard';
+// import jobly from '../images/jobly.jpg';
 import "./Projects.css";
 
 const Projects = () => {
