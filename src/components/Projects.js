@@ -1,6 +1,7 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
 import ProjectCard from './ProjectCard';
+import jobly from '../images/jobly.jpg';
 import "./Projects.css";
 
 const Projects = () => {
@@ -10,9 +11,6 @@ const Projects = () => {
         <h1>Projects</h1>
         <hr />
         <div className="projects-list pt-2">
-          <ProjectCard />
-          <ProjectCard />
-          <ProjectCard />
         </div>
       </Container>
     </div>

@@ -1,17 +1,13 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Container from 'react-bootstrap/Container';
 
 const About = () => {
   return (
-    <div>
-      ABOUT
-      <Link to="#" onClick={(e) => {
-         window.location = "mailto:paagodfrey@gmail.com";
-         e.preventDefault();
-        }
-      }>
-        <i class="fa fa-envelope fa-lg mx-1"></i>
-      </Link>
+    <div className="About pt-4">
+      <Container className="about-container">
+        <h1>About</h1>
+        <hr />
+      </Container >
     </div>
   );
 }

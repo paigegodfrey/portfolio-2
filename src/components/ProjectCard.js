@@ -1,17 +1,15 @@
 import React from 'react';
-import jobly from '../images/jobly.jpg';
 import Card from 'react-bootstrap/Card';
 import "./ProjectCard.css"
 
-const ProjectCard = () => {
+const ProjectCard = (title, text, img) => {
   return (
     <Card className="ProjectCard">
-    <Card.Img variant="top" src={jobly} />
+    <Card.Img variant="top" src={img} />
     <Card.Body>
-      <Card.Title>Jobly</Card.Title>
+      <Card.Title>{title}</Card.Title>
       <Card.Text>
-        Some quick example text to build on the card title and make up the bulk of
-        the card's content.
+        {text}
       </Card.Text>
     </Card.Body>
   </Card>
