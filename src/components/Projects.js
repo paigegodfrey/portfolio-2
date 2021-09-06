@@ -13,7 +13,7 @@ const Projects = () => {
       <Container className="projects-container">
         <h1>Projects</h1>
         <hr />
-        <div className="projects-list pt-2">
+        <div className="projects-list pt-2 pb-2">
           {projectList.map((p) => (
             <ProjectCard project={p} />
           ))}
