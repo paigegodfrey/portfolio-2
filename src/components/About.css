@@ -8,3 +8,13 @@ hr {
   height: 1px;
   background-color: white;
 }
+
+p a {
+  color: tomato;
+}
+
+p a:hover {
+  color: tomato;
+  font-weight: bold;
+  text-decoration: none;
+}

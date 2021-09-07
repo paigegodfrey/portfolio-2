@@ -11,6 +11,7 @@ const Projects = () => {
       <Container className="projects-container">
         <h1>Projects</h1>
         <hr />
+        <p>Click on an image to learn more</p>
         <div className="projects-list pt-2 pb-5">
           {projectList.map((p, idx) => (
             <ProjectCard project={p} key={idx} />
