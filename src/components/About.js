@@ -35,7 +35,7 @@ const About = () => {
           Express, Python, PostgreSQL, and data structures.
         </p>
         <p>
-          Since graduating Rithm School, I've interned at JumpOffCampus, built 
+          Since graduating from Rithm, I've interned at JumpOffCampus, built 
           personal projects, and worked as a Teaching Assistant at CodePath's 
           software engineering program. (Refer to my
           <a href={resume} target="_blank" rel="noreferrer"> resume </a>
