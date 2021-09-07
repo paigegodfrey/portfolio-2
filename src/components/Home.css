@@ -9,7 +9,7 @@
 
 #hero h1 {
   margin: 0 0 10px 0;
-  font-size: 72px;
+  font-size: 96px;
   font-family: 'Bebas Neue', cursive;
   font-weight: 800;
   line-height: 72px;
@@ -17,7 +17,7 @@
 }
 
 #hero h2 {
-  margin-bottom: 24px;
+  margin-bottom: 20px;
   font-size: 30px;
   color: tomato;
 }
@@ -40,25 +40,38 @@
 }
 
 .title-img {
-  height: 160px;
+  height: 190px;
 }
 
 @media (max-width: 991px) {
+  #hero h1 {
+    font-size: 72px;
+    line-height: 56px;
+  }
+  #hero h2 {
+    font-size: 30px;
+    margin-bottom: 16px;
+  }
+
   .title-img-col {
     text-align: end;
+  }
+  .title-img {
+    height: 160px;
   }
 }
 
 @media (max-width: 480px) {
   #hero h1 {
     font-size: 60px;
-    line-height: 60px;
+    line-height: 44px;
   }
   #hero h2 {
     font-size: 24px;
+    margin-bottom: 14px;
   }
   .title-img {
-    height: 115px;
+    height: 120px;
   }
 }
 
