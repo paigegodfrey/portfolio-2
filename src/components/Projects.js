@@ -12,7 +12,7 @@ const Projects = () => {
         <h1>Projects</h1>
         <hr />
         <p>Click on an image to learn more</p>
-        <div className="projects-list pt-2 pb-5">
+        <div className="projects-list pb-4">
           {projectList.map((p, idx) => (
             <ProjectCard project={p} key={idx} />
           ))}
