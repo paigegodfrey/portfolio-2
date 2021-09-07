@@ -1,5 +1,6 @@
 .Contact {
-  height: calc(100vh - 70px);
+  height: 100%;
+  min-height: calc(100vh - 70px);
   color: white;
   background-color: #202020;
 }
