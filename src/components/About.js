@@ -11,30 +11,30 @@ const About = () => {
         <hr />
         <p>
           After graduating from Cal Poly San Luis Obispo, I spent 6 years
-          working for Chevron in various corporate/manufacturing finance 
-          positions, entering through the company’s Finance Leadership 
+          working for Chevron in various corporate/manufacturing finance
+          positions, entering through the company’s Finance Leadership
           Development Program.
         </p>
         <p>
-          My experience with budget stewardship and project management helped 
-          develop my business acumen, but I found myself most interested in 
-          developing a technical craft. After months of soul-searching, attending 
-          meetups, and talking with folks in industry, I decided to pursue a 
-          career in software engineering. At the beginning of 2020, I enrolled 
-          at Rithm School — a 16-week, full-time program focused on React, Node, 
+          My experience with budget stewardship and project management helped
+          develop my business acumen, but I found myself most interested in
+          developing a technical craft. After months of soul-searching, attending
+          meetups, and talking with folks in industry, I decided to pursue a
+          career in software engineering. At the beginning of 2020, I enrolled
+          at Rithm School — a 16-week, full-time program focused on React, Node,
           Python, PostgreSQL, and data structures.
         </p>
         <p>
           After interning at JumpOffCampus and teaching computer science students
-          at CodePath, I feel comfortable contributing to large codebases and 
-          working with a variety of tech stacks. Please refer to my 
+          at CodePath, I feel comfortable contributing to large codebases and
+          working with a variety of tech stacks. Please refer to my
           <a href={resume} target="_blank" rel="noreferrer"> resume </a>
           for additional details on my skills and experience.
         </p>
         <h2>Hobbies</h2>
         <p>
-          When I'm not coding I like to stay physically active! I grew up doing 
-          Tae Kwon Do, earning my Second-Degree Black Belt before leaving for 
+          When I'm not coding I like to stay physically active! I grew up doing
+          Tae Kwon Do, earning my Second-Degree Black Belt before leaving for
           college. Moving up and down the West Coast with Chevron made it difficult to
           maintain a rank-based sport, so I've since taken up weightlifting and yoga.
         </p>

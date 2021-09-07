@@ -10,23 +10,18 @@ const Contact = () => {
         <h1>Contact</h1>
         <hr />
         <p>Please email me at paagodfrey@gmail.com or connect with me via the links below</p>
-        <a href={resume} target="_blank" rel="noreferrer">
-          <i className="fa fa-file fa-lg mx-1"></i>
-        </a>
         <a href="mailto:paagodfrey@gmail.com">
           <i className="fa fa-envelope fa-lg mx-1"></i>
         </a>
+        <a href={resume} target="_blank" rel="noreferrer">
+          <i className="fa fa-file fa-lg mx-1"></i>
+        </a>
         <a href="https://www.linkedin.com/in/paigegodfrey/" target="_blank" rel="noreferrer">
-          <i className="fa fa-linkedin fa-lg mx-1"></i>
+          <i className="fab fa-linkedin-in fa-lg mx-1"></i>
         </a>
         <a href="https://github.com/paigegodfrey" target="_blank" rel="noreferrer">
-          <i className="fa fa-github fa-lg mx-1"></i>
+          <i className="fab fa-github fa-lg mx-1"></i>
         </a>
-
-        <div>
-  
-        </div>
-        
       </Container >
     </div>
   );
