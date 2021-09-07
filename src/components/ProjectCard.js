@@ -3,18 +3,17 @@ import Card from 'react-bootstrap/Card';
 import "./ProjectCard.css"
 
 const ProjectCard = project => {
-  let {title, img, technologies} = project.project;
-  console.log(img);
+  let { img } = project.project;
 
   return (
-    <Card className="ProjectCard">
+    <Card className="ProjectCard" style={{border: "none"}}>
     <Card.Img className="card-img" variant="top" src={img} />
-    <Card.Body className="card-body">
+    {/* <Card.Body className="card-body">
       <h2>{title}</h2>
       <Card.Text className="card-text">
         {technologies}
       </Card.Text>
-    </Card.Body>
+    </Card.Body> */}
   </Card>
   );
 }

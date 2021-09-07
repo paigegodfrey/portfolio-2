@@ -6,16 +6,14 @@ import "./Projects.css";
 
 const Projects = () => {
 
-  console.log(projectList);
-
   return (
     <div className="Projects pt-4">
       <Container className="projects-container">
         <h1>Projects</h1>
         <hr />
-        <div className="projects-list pt-2 pb-2">
-          {projectList.map((p) => (
-            <ProjectCard project={p} />
+        <div className="projects-list pt-2 pb-5">
+          {projectList.map((p, idx) => (
+            <ProjectCard project={p} key={idx} />
           ))}
         </div>
       </Container>
