@@ -10,33 +10,40 @@ const About = () => {
         <h1>About Me</h1>
         <hr />
         <p>
-          After graduating from Cal Poly San Luis Obispo, I spent 6 years
-          working for Chevron in various corporate/manufacturing finance
-          positions, entering through the company’s Finance Leadership
-          Development Program.
+          I’ve always been drawn to the power and beauty of technical disciplines.
         </p>
         <p>
-          My experience with budget stewardship and project management helped
-          develop my business acumen, but I found myself most interested in
-          developing a technical craft. After months of soul-searching, attending
-          meetups, and talking with folks in industry, I decided to pursue a
-          career in software engineering. At the beginning of 2020, I enrolled
-          at Rithm School — a 16-week, full-time program focused on React, Node,
-          Python, PostgreSQL, and data structures.
+          Growing up, I studied Tae Kwon Do, earning my Second-Degree Black Belt 
+          after 6 years of training.
         </p>
         <p>
-          After interning at JumpOffCampus and teaching computer science students
-          at CodePath, I feel comfortable contributing to large codebases and
-          working with a variety of tech stacks. Please refer to my
+          In college, I received my bachelor's degree in Finance and Economics, 
+          graduating Summa Cum Laude from Cal Poly San Luis Obispo.
+        </p>
+        <p>
+          During my 6 year finance career, I worked as a Financial Analyst, 
+          Project Manager, and Training Coordinator at Chevron, entering through 
+          the company's Finance Leadership Development Program.
+        </p>
+        <p>
+          After years of Excel modeling, I decided to take on a new technical craft,
+          leveling up from spreadsheets to software.
+        </p>
+        <p>
+          After quitting my job at Chevron, I enrolled at Rithm School — a 16-week, 
+          full-time software engineering program focused on JavaScript, React, Node, 
+          Express, Python, PostgreSQL, and data structures.
+        </p>
+        <p>
+          Since graduating Rithm School, I've interned at JumpOffCampus, built 
+          personal projects, and worked as a Teaching Assistant at CodePath's 
+          software engineering program. (Refer to my
           <a href={resume} target="_blank" rel="noreferrer"> resume </a>
-          for additional details on my skills and experience.
+          for more details.)
         </p>
-        <h2>Hobbies</h2>
         <p>
-          When I'm not coding I like to stay physically active! I grew up doing
-          Tae Kwon Do, earning my Second-Degree Black Belt before leaving for
-          college. Moving up and down the West Coast with Chevron made it difficult to
-          maintain a rank-based sport, so I've since taken up weightlifting and yoga.
+          I'm very eager to continue growing as a Software Engineer and am currently 
+          looking for opportunities in frontend development and developer advocacy. 
         </p>
       </Container >
     </div>
