@@ -1,6 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
+import resume from "./Paige_Godfrey_Resume_Jul2021.pdf";
 import "./About.css";
 
 const About = () => {
@@ -28,7 +28,7 @@ const About = () => {
           After interning at JumpOffCampus and teaching computer science students
           at CodePath, I feel comfortable contributing to large codebases and 
           working with a variety of tech stacks. Please refer to my 
-          <Link to="Paige_Godfrey_Resume_Jul2021.pdf" target="_blank"> resume </Link> 
+          <a href={resume} target="_blank" rel="noreferrer"> resume </a>
           for additional details on my skills and experience.
         </p>
         <h2>Hobbies</h2>
