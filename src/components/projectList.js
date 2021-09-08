@@ -32,8 +32,8 @@ let projects = [
     title: "Flixster",
     technologies: "JavaScript • HTML • CSS",
     description: `Flixster is a Vanilla JavaScript movie application in which users 
-                  can search titles and view movie details, including genre, duration, 
-                  rating, and description.`,
+                  can browse current movies, search titles, and view details, including
+                  genre, duration, rating, and description.`,
     techDetail: `Application is built with pure CSS and features flexbox and grid. Data 
                   is sourced from The Movie Database API.`,
     img: flixster,
