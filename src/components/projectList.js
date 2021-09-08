@@ -34,7 +34,7 @@ let projects = [
     description: `Flixster is a Vanilla JavaScript movie application in which users 
                   can browse current movies, search titles, and view details, including
                   genre, duration, rating, and description.`,
-    techDetail:`Application is built with pure CSS and features flexbox and grid. Data 
+    techDetail:`Application is styled with pure CSS and features flexbox and grid. Data 
                 is sourced from The Movie Database API.`,
     img: flixster,
     link: "https://flixster.netlify.app/",
