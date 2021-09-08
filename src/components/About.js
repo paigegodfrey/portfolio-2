@@ -30,9 +30,9 @@ const About = () => {
           leveling up from spreadsheets to software.
         </p>
         <p>
-          I learned some Javascript, quit my job at Chevron, and enrolled at Rithm 
-          School — a 16-week, full-time software engineering program focused on React, 
-          Node, Express, Python, PostgreSQL, and data structures.
+          I taught myself some Javascript and enrolled at Rithm School — a 16-week, 
+          full-time software engineering program focused on React, Node, Express, Python, 
+          PostgreSQL, and data structures.
         </p>
         <p>
           Since graduating from Rithm, I've interned at JumpOffCampus, built 
