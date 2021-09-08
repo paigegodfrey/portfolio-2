@@ -1,23 +1,13 @@
-.ProjectCard:hover {
+.card:hover {
   cursor: pointer;
-  transform: translate3d(0px, -4px, 0px);
-  transition-duration: 0.5s;
+  background: black;
+  transition-duration: 0.2s;
 }
 
 .card-img {
   width: 100%; 
   object-fit: cover;
   border: none;
+  opacity: 0.92;
 }
 
-.card-title {
-  font-size: 20px;
-}
-
-.card-body {
-  background-color: #202020;
-}
-
-.card-text {
-  color: tomato;
-}

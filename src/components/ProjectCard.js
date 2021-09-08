@@ -6,15 +6,9 @@ const ProjectCard = project => {
   let { img } = project.project;
 
   return (
-    <Card className="ProjectCard" style={{border: "none"}}>
-    <Card.Img className="card-img" variant="top" src={img} />
-    {/* <Card.Body className="card-body">
-      <h2>{title}</h2>
-      <Card.Text className="card-text">
-        {technologies}
-      </Card.Text>
-    </Card.Body> */}
-  </Card>
+    <Card className="ProjectCard card" style={{ border: "none" }}>
+      <Card.Img className="card-img" variant="top" src={img} />
+    </Card>
   );
 }
 
