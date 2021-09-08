@@ -1,6 +1,6 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
-import resume from "./Paige_Godfrey_Resume_Jul2021.pdf";
+import resume from "./Paige_Godfrey_Resume_Developer_Advocate.pdf";
 import "./About.css";
 
 const About = () => {
