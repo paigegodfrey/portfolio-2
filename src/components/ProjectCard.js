@@ -30,9 +30,8 @@ const ProjectCard = project => {
             <p className="mt-4">{description}</p>
             <p className="mt-4">{techDetail}</p>
             <p>
-              Live demo: <a href={link} target="_blank" rel="noreferrer">{link}</a>
-              <br />
-              Github repo: <a href={github} target="_blank" rel="noreferrer"> {github}</a>
+              Launch the <a href={link} target="_blank" rel="noreferrer">live demo</a> or 
+              see the code on <a href={github} target="_blank" rel="noreferrer">github</a>.
             </p>
           </Card.Body>
         </Card>
