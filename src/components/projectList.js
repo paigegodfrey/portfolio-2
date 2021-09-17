@@ -1,5 +1,6 @@
 import jobly from "../images/jobly1.png";
 import microblog from "../images/microblog1.png";
+import warbler from "../images/warbler1.png";
 import flixster from "../images/flixster1.png";
 
 let projects = [
@@ -27,6 +28,19 @@ let projects = [
     img: microblog,
     link: "http://microblog.surge.sh/",
     github: "https://github.com/paigegodfrey/microblog"
+  },
+  {
+    title: "Warbler",
+    technologies: "Flask • Jinja • PostgreSQL",
+    description: `Warbler is a mock twitter clone built entirely as a backend application. 
+                  Users can sign up/login, follow users, have followers, and create/like 
+                  messages (tweets).`,
+    techDetail:`Bcrypt authentication is used to manage user login and Flask sessions store 
+                current user data to persist state across requests. Tests are written for 
+                views and models using Python Unittest.`,
+    img: warbler,
+    link: "https://warbler-flask-app.herokuapp.com/",
+    github: "https://github.com/paigegodfrey/warbler"
   },
   {
     title: "Flixster",
