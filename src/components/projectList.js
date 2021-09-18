@@ -1,9 +1,18 @@
 import jobly from "../images/jobly1.png";
 import microblog from "../images/microblog1.png";
+import portfolio from "../images/portfolio1.png";
+import jumpOff from "../images/jumpoff1.png";
 import warbler from "../images/warbler1.png";
 import flixster from "../images/flixster1.png";
 
 let projects = [
+  {
+    title: "JumpOffCampus",
+    technologies: "React • Ruby on Rails",
+    description: ``,
+    techDetail:``,
+    img: jumpOff
+  },
   {
     title: "Jobly",
     technologies: "React • Node • Express • PostgreSQL",
@@ -53,6 +62,15 @@ let projects = [
     img: flixster,
     link: "https://flixster.netlify.app/",
     github: "https://github.com/paigegodfrey/flixster"
+  },
+  {
+    title: "Portfolio",
+    technologies: "React • React-Bootstrap",
+    description: `The portfolio site you are on!`,
+    techDetail:`Built from scratch with a responsive, mobile-first design, utilizing 
+                React-Bootstrap and custom CSS.`,
+    img: portfolio,
+    github: "https://github.com/paigegodfrey/portfolio-2"
   },
 ]
 
