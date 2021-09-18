@@ -7,13 +7,6 @@ import flixster from "../images/flixster1.png";
 
 let projects = [
   {
-    title: "JumpOffCampus",
-    technologies: "React • Ruby on Rails",
-    description: ``,
-    techDetail:``,
-    img: jumpOff
-  },
-  {
     title: "Jobly",
     technologies: "React • Node • Express • PostgreSQL",
     description: `Jobly is a full stack mock job-search application in which 
@@ -50,6 +43,13 @@ let projects = [
     img: warbler,
     link: "https://warbler-flask-app.herokuapp.com/",
     github: "https://github.com/paigegodfrey/warbler"
+  },
+  {
+    title: "JumpOffCampus",
+    technologies: "React • Ruby on Rails",
+    description: ``,
+    techDetail:``,
+    img: jumpOff
   },
   {
     title: "Flixster",
