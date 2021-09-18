@@ -31,8 +31,8 @@ const ProjectCard = project => {
             <p className="mt-4">{techDetail}</p>
             {title !== "JumpOffCampus" &&
               <p>
-                Launch the <a href={link} target="_blank" rel="noreferrer">live demo</a> or
-                see the code on <a href={github} target="_blank" rel="noreferrer">github</a>.
+                Launch the <a href={link} target="_blank" rel="noreferrer" style={{color: "#007bff"}}>live demo</a> or
+                see the code on <a href={github} target="_blank" rel="noreferrer" style={{color: "#007bff"}}>github</a>.
               </p>
             }
           </Card.Body>
