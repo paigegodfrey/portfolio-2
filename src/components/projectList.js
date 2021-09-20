@@ -1,8 +1,8 @@
 import jobly from "../images/jobly1.png";
 import microblog from "../images/microblog1.png";
-import portfolio from "../images/portfolio1.png";
-import jumpOff from "../images/jumpoff1.png";
 import warbler from "../images/warbler1.png";
+import jumpOff from "../images/jumpoff1.png";
+import numbers from "../images/numbers1.png";
 import flixster from "../images/flixster1.png";
 
 let projects = [
@@ -47,9 +47,24 @@ let projects = [
   {
     title: "JumpOffCampus",
     technologies: "React • Ruby on Rails",
-    description: ``,
-    techDetail:``,
-    img: jumpOff
+    description: `JumpOffCampus enables students to find off-campus housing solutions in 
+                  their community.`,
+    techDetail:`During my internship, I worked primarily in React to refactor legacy 
+                components from classes to hooks and improve the apartment listings UI 
+                by separating list and map views and integrating Google Maps API. I also 
+                built and tested MVC components for “points of interest” feature, as part 
+                of an upgrade from Rails 2 to Rails 5.`,
+    img: jumpOff,
+  },
+  {
+    title: "Numbers API",
+    technologies: "JavaScript • Node • Express",
+    description: `Numbers API provides interesting facts about numbers.`,
+    techDetail:`As an open-source contributor, I removed Ruby dependencies and translated 
+                code to use Node.js ecosystem; relegated frontend libraries to package 
+                dependencies; refactored the codebase with JavaScript ES6; and updated 
+                documentation for new contributors.`,
+    img: numbers,
   },
   {
     title: "Flixster",
@@ -62,15 +77,6 @@ let projects = [
     img: flixster,
     link: "https://flixster.netlify.app/",
     github: "https://github.com/paigegodfrey/flixster"
-  },
-  {
-    title: "Portfolio",
-    technologies: "React • React-Bootstrap",
-    description: `The portfolio site you are on!`,
-    techDetail:`Built from scratch with a responsive, mobile-first design, utilizing 
-                React-Bootstrap and custom CSS.`,
-    img: portfolio,
-    github: "https://github.com/paigegodfrey/portfolio-2"
   },
 ]
 

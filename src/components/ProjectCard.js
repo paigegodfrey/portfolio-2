@@ -29,7 +29,7 @@ const ProjectCard = project => {
             />
             <p className="mt-4">{description}</p>
             <p className="mt-4">{techDetail}</p>
-            {title !== "JumpOffCampus" &&
+            {github &&
               <p>
                 Launch the <a href={link} target="_blank" rel="noreferrer" style={{color: "#007bff"}}>live demo</a> or
                 see the code on <a href={github} target="_blank" rel="noreferrer" style={{color: "#007bff"}}>github</a>.
