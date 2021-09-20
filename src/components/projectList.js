@@ -46,7 +46,7 @@ let projects = [
   },
   {
     title: "JumpOffCampus",
-    technologies: "React • Ruby on Rails",
+    technologies: "React • Ruby on Rails • PostgreSQL",
     description: `JumpOffCampus enables students to find off-campus housing solutions in 
                   their community.`,
     techDetail:`During my internship, I worked primarily in React to refactor legacy 
@@ -58,7 +58,7 @@ let projects = [
   },
   {
     title: "Numbers API",
-    technologies: "JavaScript • Node • Express",
+    technologies: "JavaScript • Node • Express • PostgreSQL",
     description: `Numbers API provides interesting facts about numbers.`,
     techDetail:`As an open-source contributor, I removed Ruby dependencies and translated 
                 code to use Node.js ecosystem; relegated frontend libraries to package 
