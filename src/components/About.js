@@ -21,7 +21,7 @@ const About = () => {
           graduating Summa Cum Laude from Cal Poly San Luis Obispo.
         </p>
         <p>
-          During my 6 year finance career, I worked as a Financial Analyst, 
+          During my 6-year finance career, I worked as a Financial Analyst, 
           Project Manager, and Training Coordinator at Chevron, entering through 
           the company's Finance Leadership Development Program.
         </p>
