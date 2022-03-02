@@ -35,9 +35,9 @@ const About = () => {
           PostgreSQL, and data structures.
         </p>
         <p>
-          Since graduating from Rithm, I've interned at JumpOffCampus, contributed to 
-          open-source software, and worked as a Teaching Assistant at CodePath's software 
-          engineering program. (Refer to my
+          Since graduating from Rithm, I've helped small business JumpOffCampus, worked 
+          as a Teaching Assistant at CodePath's software engineering program, and interned 
+          at Chronicled, a San Francisco blockchain startup. (Refer to my
           <a className="resume" href={resume} target="_blank" rel="noreferrer"> resume </a>
           for more details.)
         </p>
